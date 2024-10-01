@@ -1,0 +1,14 @@
+.hero {
+    position: relative;
+    width: 100%;
+    height: 400px; /* กำหนดความสูงตามที่คุณต้องการ */
+    overflow: hidden;
+  }
+  
+  .hero-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* ปรับให้ภาพเต็มพื้นที่และคงอัตราส่วน */
+    transition: opacity 0.5s ease-in-out; /* เพิ่มเอฟเฟกต์การเปลี่ยนภาพ */
+  }
+  
